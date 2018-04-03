@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">PT Management</string>
-    <string name="username">jdoe</string>
+    <string name="username">JDOE</string>
     <string name="password">welcome1</string>
+    <string name="workout_customer_hint">Name</string>
+    <string name="workout_focus_label">What do you want to focus on?</string>
+    <string name="workout_details_label">Details</string>
+    <string name="workout_completed_label">Completed</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
