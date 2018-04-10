@@ -6,6 +6,8 @@
     <string name="workout_focus_label">What do you want to focus on?</string>
     <string name="workout_details_label">Details</string>
     <string name="workout_completed_label">Completed</string>
+    <string name="logout_item">Logout</string>
+    <string name="logout_message">Logging you off...</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
