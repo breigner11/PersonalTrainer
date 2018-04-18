@@ -8,6 +8,11 @@
     <string name="workout_completed_label">Completed</string>
     <string name="logout_item">Logout</string>
     <string name="logout_message">Logging you off...</string>
+    <string name="date_picker_title">Date of Workout:</string>
+    <string name="new_workout">New Workout</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">%1$d workouts</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
