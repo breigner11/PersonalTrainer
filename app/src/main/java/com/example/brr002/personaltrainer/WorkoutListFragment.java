@@ -1,6 +1,7 @@
 package com.example.brr002.personaltrainer;
 
 import android.content.Intent;
+import android.hardware.Camera;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
@@ -21,6 +22,7 @@ import java.util.List;
 public class WorkoutListFragment extends Fragment {
 
     private static final String SAVED_SUBTITLE_VISIBLE = "subtitle";
+    private static final int CAM_REQUEST = 1313;
 
     private RecyclerView mWorkoutRecyclerView;
     private WorkoutAdapter mAdapter;
@@ -89,6 +91,9 @@ public class WorkoutListFragment extends Fragment {
                 mSubtitleVisible = !mSubtitleVisible;
                 getActivity().invalidateOptionsMenu();
                 updateSubtitle();
+                return true;
+            case R.id.add_photo:
+                Camera.open();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

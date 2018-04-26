@@ -13,6 +13,10 @@
         app:showAsAction="ifRoom"/>
 
     <item
+        android:id="@+id/add_photo"
+        android:title="@string/add_photo"/>
+
+    <item
         android:title="@string/logout_item"
         android:id="@+id/logout"/>
 
